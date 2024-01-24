@@ -50,16 +50,22 @@ class _HomeScreenState extends State<HomeScreen> {
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2),
                   itemCount: quotesList.length,
-                  itemBuilder: (context, index) => Container(
-                    height: 120,
-                    padding: const EdgeInsets.all(20),
-                    margin: const EdgeInsets.all(10),
-                    decoration: BoxDecoration(
-                      color: Colors.amber,
-                      borderRadius: BorderRadius.circular(10),
+                  itemBuilder: (context, index) => InkWell(
+                    onTap: (){
+                      Navigator.pushNamed(context, 'quote',
+                          arguments: quote[index]);
+                    },
+                    child: Container(
+                      height: 120,
+                      padding: const EdgeInsets.all(20),
+                      margin: const EdgeInsets.all(10),
+                      decoration: BoxDecoration(
+                        color: Colors.amber,
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      child: Text("${quote[index].quotes}",
+                          style: const TextStyle(fontSize: 20)),
                     ),
-                    child: Text("${quote[index].quotes}",
-                        style: const TextStyle(fontSize: 20)),
                   ),
                 )
               : ListView.builder(
