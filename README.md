@@ -19,4 +19,6 @@ samples, guidance on mobile development, and a full API reference.
 <img src="https://github.com/swetapatel0904/quotes_app/assets/153794312/70462d09-1c82-4172-8c63-ffe103bdae24" height="400px" width="200px"/>
   <img src="https://github.com/swetapatel0904/quotes_app/assets/153794312/b205e058-8898-43d5-a2db-433f9d50ab61" height="400px" width="200px"/>
   <img src="https://github.com/swetapatel0904/quotes_app/assets/153794312/7c51c5a8-b1ce-4c36-9ef4-d7a32a66641e" height="400px" width="200px"/>
+  <img src="https://github.com/swetapatel0904/quotes_app/assets/153794312/94d43754-2466-4003-a842-54b0f00a4206" height="400px" width="200px"/>
 </p>
+
